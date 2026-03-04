@@ -66,6 +66,10 @@ jobs:
   docs:
     name: Deploy Docs
     needs: publish
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     uses: ./.github/workflows/docs.yml
 
   # Step 5: Create GitHub Release
