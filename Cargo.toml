@@ -9,7 +9,7 @@ license = "MIT"
 repository = "https://github.com/ayarotsky/diesel-guard"
 homepage = "https://github.com/ayarotsky/diesel-guard"
 readme = "README.md"
-keywords = ["linter", "postgres", "migrations", "sql", "postgresql"]
+keywords = ["linter", "postgres", "migrations", "sqlx", "postgresql"]
 categories = ["command-line-utilities", "development-tools"]
 
 [dependencies]
