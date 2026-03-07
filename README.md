@@ -27,10 +27,25 @@ to your version (e.g., constant defaults are safe on PG 11+).
 **No database connection required.** Works on SQL files directly — no running Postgres
 instance needed in CI.
 
+## Installation
+
+```sh
+# Via Cargo
+cargo install diesel-guard
+
+# Via Homebrew
+brew install ayarotsky/tap/diesel-guard
+
+# Via shell script (macOS/Linux)
+curl --proto '=https' --tlsv1.2 -LsSf https://github.com/ayarotsky/diesel-guard/releases/latest/download/diesel-guard-installer.sh | sh
+
+# Via PowerShell (Windows)
+powershell -ExecutionPolicy Bypass -c "irm https://github.com/ayarotsky/diesel-guard/releases/latest/download/diesel-guard-installer.ps1 | iex"
+```
+
 ## Quick Start
 
 ```sh
-cargo install diesel-guard
 diesel-guard init          # creates diesel-guard.toml
 diesel-guard check migrations/
 ```
