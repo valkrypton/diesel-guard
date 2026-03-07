@@ -29,17 +29,23 @@ instance needed in CI.
 
 ## Installation
 
+Via Cargo:
 ```sh
-# Via Cargo
 cargo install diesel-guard
+```
 
-# Via Homebrew
+Via Homebrew:
+```sh
 brew install ayarotsky/tap/diesel-guard
+```
 
-# Via shell script (macOS/Linux)
+Via shell script (macOS/Linux):
+```sh
 curl --proto '=https' --tlsv1.2 -LsSf https://github.com/ayarotsky/diesel-guard/releases/latest/download/diesel-guard-installer.sh | sh
+```
 
-# Via PowerShell (Windows)
+Via PowerShell (Windows):
+```powershell
 powershell -ExecutionPolicy Bypass -c "irm https://github.com/ayarotsky/diesel-guard/releases/latest/download/diesel-guard-installer.ps1 | iex"
 ```
 
