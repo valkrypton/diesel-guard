@@ -8,6 +8,8 @@ Linter for dangerous Postgres migration patterns in Diesel and SQLx.
 ✓ Supports safety-assured blocks for verified operations<br>
 ✓ Extensible with [custom checks](custom-checks.md)<br>
 
+> ⭐ If this looks useful, a [star on GitHub](https://github.com/ayarotsky/diesel-guard) helps more developers find it.
+
 ## How It Works
 
 diesel-guard analyzes your migration SQL using Postgres's own parser (`pg_query` via libpg_query) and checks each statement against a set of safety rules. When it finds a potentially dangerous operation, it reports:

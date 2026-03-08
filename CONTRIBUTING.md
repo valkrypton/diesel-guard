@@ -1,10 +1,8 @@
 # Contributing to diesel-guard
 
-Thank you for your interest in contributing to **diesel-guard**! We appreciate your help in making Diesel migrations safer for everyone.
+Thank you for your interest in contributing to **diesel-guard**! We appreciate your help in making Postgres migrations safer for everyone.
 
-## Getting Help
-
-If you need help using **diesel-guard**, please open a [GitHub Discussion](https://github.com/ayarotsky/diesel-guard/discussions) or search Stack Overflow. Undocumented features are generally unsupported.
+If you find this project useful, consider starring it. It helps more developers find it.
 
 ## Reporting Bugs
 
@@ -188,7 +186,6 @@ Currently, we target Postgres 9.6+ to match Diesel's requirements.
 ## Questions?
 
 Feel free to:
-- Open a [GitHub Discussion](https://github.com/ayarotsky/diesel-guard/discussions)
 - Comment on relevant issues
 - Ask for clarification in your PR
 
