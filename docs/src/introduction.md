@@ -1,6 +1,6 @@
 # Introduction
 
-Linter for dangerous Postgres migration patterns in Diesel and SQLx.
+Linter for dangerous Postgres migration patterns in Diesel and SQLx. Prevents downtime caused by unsafe schema changes.
 
 ✓ Detects operations that lock tables or cause downtime<br>
 ✓ Provides safe alternatives for each blocking operation<br>
